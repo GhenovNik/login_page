@@ -1,0 +1,60 @@
+#submit {
+  align-items: center;
+
+  &.submit_page_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    @media (min-width: 960px) {
+      width: 100%;
+      max-width: 100vw;
+      background-image: url('images/rock-paper-coin-sign-up.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .submit_page_wrapper {
+    background-color: #fff;
+    width: 100vw;
+    padding: 0 1.5rem;
+    margin: auto;
+    max-width: 24.063rem;
+    @media (min-width: 960px) {
+      width: 16rem;
+      padding: 2.25rem 4rem;
+      border-radius: 5px;
+      box-shadow: 30px 30px 60px 0 rgba(74, 74, 74, 0.25);
+      border: solid 1px rgba(207, 206, 207, 0.37);
+    }
+
+    .submit_page_header {
+      text-align: left;
+      @media (min-width: 960px) {
+        text-align: center;
+      }
+    }
+
+    .checkMark {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      background-color: #fff;
+      border: 0 solid #000;
+      box-shadow: 0 0 0 2px #fff;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .login-button_submit {
+      margin-top: 2.5rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+
