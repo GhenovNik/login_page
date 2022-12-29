@@ -7,9 +7,9 @@ const SignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
-    const [emailError, setEmailError] = useState('Email cannot be empty');
-    const [passwordError, setPasswordError] = useState('Password cannot be empty');
-    const [confirmPasswordError, setConfirmPasswordError] = useState('Password cannot be empty');
+    const [emailError, setEmailError] = useState('');
+    const [passwordError, setPasswordError] = useState('');
+    const [confirmPasswordError, setConfirmPasswordError] = useState('');
     const [formValid, setFormValid] = useState(false);
 
 
@@ -25,6 +25,9 @@ const SignUp = () => {
         setEmail(e.target.value);
         if (!regex.test(String(e.target.value).toLowerCase())) {
             setEmailError('Email is not valid');
+            if (!e.target.value) {
+                setEmailError('Email is required');
+            }
         } else {
             setEmailError('');
         }
