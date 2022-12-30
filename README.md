@@ -19,6 +19,8 @@ You can go through 4 pages in total:
 *forgot password
 *registration
 
+to start the project, you need to run the command "npm start" in the terminal.
+
 I tried to make the code as clean as possible, but I'm sure that there are still places where it can be improved.
 
 I hope you will like my work and I will be able to continue to work with you.
