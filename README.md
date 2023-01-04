@@ -6,7 +6,7 @@ In the assignment you are asking me to use: React/Next.js, TypeScript and scss.
 
 To be honest, I have not worked with Next so far, and in order to meet the deadline, I wrote the project without using this framework.
 
-Nevertheless, I have learned enough material about it and am ready to try to rewrite all my code using Next.js. 
+Nevertheless, I have learned enough material about it and am ready to try to rewrite all my code using Next.js.
 I'm honestly interested, because I believe that I can master it.
 
 The style is implemented using the scss.
@@ -19,7 +19,9 @@ You can go through 4 pages in total:
 *forgot password
 *registration
 
-to start the project, you need to run the command "npm start" in the terminal.
+to start the project, you need to:
+1)run the command "npm i" in the terminal.
+2)run the command "npm start" in the terminal.
 
 I tried to make the code as clean as possible, but I'm sure that there are still places where it can be improved.
 

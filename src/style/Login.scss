@@ -8,7 +8,7 @@
     @media (min-width: 960px) {
       width: 100%;
       max-width: 100vw;
-      background-image: url('images/loginBackground.jpg');
+      background-image: url("images/loginBackground.jpg");
       background-position: center;
       background-size: cover;
     }
@@ -49,7 +49,6 @@
         flex-direction: column;
         //align-items: center;
       }
-
 
       .login-button_submit {
         display: flex;
@@ -94,19 +93,15 @@
       .login-link_forgot_pass {
         color: #000;
         text-decoration: none;
-        opacity: .2;
+        opacity: 0.2;
         width: fit-content;
         margin-left: 15rem;
-
       }
 
       .login-link_signup {
         color: rgb(243, 142, 125);
         text-decoration: none;
-
-
       }
     }
-
   }
 }
