@@ -22,6 +22,7 @@ You can go through 4 pages in total:
 to start the project, you need to:
 1)run the command "npm ci" in the terminal.
 2)run the command "npm start" in the terminal.
+if  "Cannot find module 'typescript'"  error appears, run the command "npm install -g typescript" in the terminal.
 
 I tried to make the code as clean as possible, but I'm sure that there are still places where it can be improved.
 
